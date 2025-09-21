@@ -69,17 +69,17 @@ const HomePage = () => {
               <div key={index} className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden border border-gray-100">
                 <div className="aspect-w-16 aspect-h-12">
                   <img 
-                    src={product.image} 
-                    alt={product.name}
-                    className={`w-full h-48 ${product.name === 'Ice Antep Fıstıklı Latte (Antep Fıstıklı Latte)' ? 'object-cover' : 'object-cover'}`}
+                    src={product!.image} 
+                    alt={product!.name}
+                    className="w-full h-48 object-cover"
                   />
                 </div>
                 <div className="p-4">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="font-semibold text-gray-800 text-lg">{product.name}</h3>
-                    <span className="text-amber-600 font-bold text-lg">{product.price}</span>
+                    <h3 className="font-semibold text-gray-800 text-lg">{product!.name}</h3>
+                    <span className="text-amber-600 font-bold text-lg">{product!.price}</span>
                   </div>
-                  <p className="text-gray-600 text-sm">{product.description}</p>
+                  <p className="text-gray-600 text-sm">{product!.description}</p>
                 </div>
               </div>
             ))}
