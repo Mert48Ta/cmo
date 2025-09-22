@@ -26,7 +26,7 @@ const HomePage = () => {
       <section 
         className="py-16 bg-cover bg-center bg-no-repeat relative"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://candymocoffee.com.tr/img/candymo2.png')`
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/menu_resimler/candymo2.webp')`
         }}
       >
         <div className="max-w-6xl mx-auto px-4 text-center relative z-10">
