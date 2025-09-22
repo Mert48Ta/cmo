@@ -25,7 +25,7 @@ const Header = () => {
           {/* Logo Section - Responsive */}
           <Link to="/" className="flex items-center space-x-3 flex-1" onClick={closeMenu}>
             <img 
-              src="https://candymocoffee.com.tr/img/Logo.png" 
+              src="/menu_resimler/logo.webp" 
               alt="Candy Mo Logo" 
               className="h-10 w-auto sm:h-12 md:h-14 transition-all duration-200"
             />
