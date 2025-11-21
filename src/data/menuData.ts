@@ -32,7 +32,7 @@ export const menuData: MenuCategory[] = [
       { name: "Caramel Latte", price: "180₺", description: "Karamel aromalı latte", image: "menu_resimler/latte_(genel_foto).webp" },
       { name: "Antep Fıstıklı Latte", price: "180₺", description: "Antep fıstığı aromalı latte", image: "menu_resimler/latte_(genel_foto).webp" },
       { name: "Salted Caramel Latte", price: "180₺", description: "Tuzlu karamel aromalı latte", image: "menu_resimler/latte_(genel_foto).webp" },
-      { name: "Butterscotch Latte (Tereyağlı Karamel)", price: "180₺", description: "Tereyağlı karamel aromalı latte", image: "menu_resimler/latte_(genel_foto).webp" },
+      
       { name: "Cheesecake Latte", price: "180₺", description: "Cheesecake aromalı latte", image: "menu_resimler/latte_(genel_foto).webp" },
       { name: "Vanilya Latte", price: "180₺", description: "Vanilya aromalı latte", image: "menu_resimler/latte_(genel_foto).webp" },
       { name: "Toffeenut Latte", price: "180₺", description: "Toffeenut aromalı latte", image: "menu_resimler/latte_(genel_foto).webp" },
@@ -63,8 +63,7 @@ export const menuData: MenuCategory[] = [
       { name: "Ice Toffenut Latte", price: "175₺", description: "Toffeenut aromalı soğuk latte", image: "menu_resimler/ice_latte_genel_foto.webp" },
       { name: "Ice Coconut Latte", price: "175₺", description: "Hindistan cevizi aromalı soğuk latte", image: "menu_resimler/ice_latte_genel_foto.webp" },
       { name: "Ice Salted Caramel Latte", price: "175₺", description: "Tuzlu karamel aromalı soğuk latte", image: "menu_resimler/ice_latte_genel_foto.webp" },
-      { name: "Ice Chesscake Latte", price: "175₺", description: "Cheesecake aromalı soğuk latte", image: "menu_resimler/ice_latte_genel_foto.webp" },
-      { name: "Ice Butterscotch Latte (Tereyağlı Karamel)", price: "175₺", description: "Tereyağlı karamel aromalı soğuk latte", image: "menu_resimler/ice_latte_genel_foto.webp" },
+      
       { name: "Ice Hazelnut Latte", price: "175₺", description: "Fındık aromalı soğuk latte", image: "menu_resimler/ice_latte_genel_foto.webp" },
       { name: "Ice Pikan Cevizli Latte", price: "175₺", description: "Pikan cevizi aromalı soğuk latte", image: "menu_resimler/ice_latte_genel_foto.webp" },
       { name: "Ice Vanilya Latte", price: "175₺", description: "Vanilya aromalı soğuk latte", image: "menu_resimler/ice_latte_genel_foto.webp" },
@@ -114,7 +113,7 @@ export const menuData: MenuCategory[] = [
       { name: "Soda", price: "50₺", description: "Maden suyu", image: "menu_resimler/sade_soda.webp" },
       { name: "Meyveli Soda (Elma,Limon)", price: "60₺", description: "Elma ve limon aromalı soda", image: "menu_resimler/merveli_soda.webp" },
       { name: "Fuse Tea (Şeftali,Mango)", price: "75₺", description: "Çeşitli meyve aromalı Fuse Tea", image: "menu_resimler/fuestea_genel_foto.webp" },
-      { name: "Meyve Suyu (Vişne,Şeftali)", price: "75₺", description: "Vişne ve şeftali aromalı meyve suyu", image: "menu_resimler/merve_suyu.webp" },
+      
       { name: "Taze Sıkılmış Portakal Suyu", price: "150₺", description: "Taze sıkılmış portakal suyu", image: "menu_resimler/portakal_suyu.webp" },
       { name: "Ev Yapımı Limonata", price: "150₺", description: "Ev yapımı taze limonata", image: "menu_resimler/limonata.webp" },
       { name: "Su", price: "40₺", description: "İçme suyu", image: "menu_resimler/su.webp" }
@@ -270,18 +269,8 @@ export const menuData: MenuCategory[] = [
         description: "Sıcak matcha latte",
         image: "menu_resimler/hot_matcha.webp"
       },
-      { 
-        name: "Hot Strawberry Matcha Latte", 
-        price: "190₺", 
-        description: "Çilekli sıcak matcha latte",
-        image: "menu_resimler/hot_matcha.webp"
-      },
-      { 
-        name: "Hot Mango Matcha Latte", 
-        price: "190₺", 
-        description: "Mangolu sıcak matcha latte",
-        image: "menu_resimler/hot_matcha.webp"
-      },
+      
+      
       { 
         name: "Hot Vanilya Matcha Latte", 
         price: "190₺", 
@@ -343,12 +332,7 @@ export const menuData: MenuCategory[] = [
         description: "San Sebastian usulü cheesecake",
         image: "menu_resimler/sansebastian.webp"
       },
-      { 
-        name: "Triliçe", 
-        price: "180₺", 
-        description: "Geleneksel triliçe",
-        image: "menu_resimler/triliçe.webp"
-      },
+      
       { 
         name: "Tiramisu", 
         price: "200₺", 
